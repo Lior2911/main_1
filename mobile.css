@@ -67,7 +67,8 @@
   #ME {
 
     border-radius: 50%;
-    width: 40%;
+    width: 35%;
+    
   }
 
   #textphoto {
@@ -111,7 +112,7 @@
 
   @keyframes album {
     0% {
-      background-image: url(/img/3.jpg);
+      background-image: url(img/3.jpg);
     }
 
     20% {
@@ -123,11 +124,11 @@
     }
 
     60% {
-      background-image: url(img/8);
+      background-image: url(img/8.jpeg);
     }
 
     80% {
-      background-image: url(/img/6.jpeg);
+      background-image: url(img/6.jpeg);
     }
 
     100% {

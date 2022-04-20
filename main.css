@@ -180,6 +180,7 @@
         grid-area: footer;
         background-color: #42C2FF;
         border: 3px white solid;
+        height: 10vh;
 
 
 
@@ -197,24 +198,25 @@
 
     }
 
-    .ftr {
-
-      
-        height: 10vh;
-    }
+    .ftr{
+        height: 15%;
+        
+        
+      }
     #content{
         width: 100vw;
+        height: 30vh;
+       
     }
     #phone{
-        width: 100%;
-        height: 100%;
-        color: #d8d89000;
-        text-decoration: none;
+        width: 4vw;
+        height: 4vh;
+       
     }
   
     #mail{
-        width: 100%;
-        height: 100%;
+        width: 4vw;
+        height: 4vh;
     }
 
 }
