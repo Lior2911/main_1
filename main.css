@@ -79,6 +79,7 @@
         background-color: #B8FFF9;
         border: 3px white solid;
         display: flex;
+        direction: rtl;
         
 
 
@@ -86,11 +87,38 @@
 
     .boxmain {
         width: 40vw;
+        
         flex-direction: column;
         direction: rtl;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: #98d3ce 2px solid;
 
         
+
+    }
+    #project{
+        display: flex;
+        
+        
+
+        
+        
+
+        
+       
+    }
+    .proj{
+        
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+
+    }
+    .img{
+        width: 30%;
 
     }
     #textphoto {
