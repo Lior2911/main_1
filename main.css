@@ -22,6 +22,10 @@
 
 
     }
+    .media{
+        justify-content: center;
+        
+    }
 
     #github {
         width: 10vw;
@@ -58,12 +62,9 @@
 
     #menu {
         align-content: space-around;
-
-        border: 1px black solid;
-
         flex-direction: column;
-
-        height: 95%;
+        
+    
     }
     #listmenu{
         align-content: space-around;
@@ -78,6 +79,7 @@
         background-color: #B8FFF9;
         border: 3px white solid;
         display: flex;
+        
 
 
     }
@@ -85,14 +87,12 @@
     .boxmain {
         width: 40vw;
         flex-direction: column;
+        direction: rtl;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
         
 
     }
-
-   
-
-
-
     #textphoto {
 
         display: flex;
@@ -128,17 +128,10 @@
         display: flex;
         width: 35vw;
         height: 50vh;
-        
         animation-name: album;
         animation-duration: 10s;
         animation-iteration-count: infinite;
-        /* animation-timing-function: alternate; */
-
         animation-direction: alternate;
-
-
-
-
     }
 
     @keyframes album {
@@ -166,13 +159,7 @@
             background-image: url(/img/1.jpg);
         }
 
-
-
     }
-
-
-
-
 
     /* footer  */
 
@@ -180,7 +167,7 @@
         grid-area: footer;
         background-color: #42C2FF;
         border: 3px white solid;
-        height: 10vh;
+        height: 14vh;
 
 
 
@@ -210,7 +197,7 @@
     }
     #phone{
         width: 4vw;
-        height: 4vh;
+        height: 6vh;
        
     }
   
