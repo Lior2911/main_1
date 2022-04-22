@@ -66,25 +66,17 @@
         align-items: center;
         width: 100%;
         justify-content: center;
-    }
-
-    #menu {
-        width: 100%;
-        justify-content: right;
-        flex-direction: column;
+        
     }
 
     #listmenu {
         direction: rtl;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: large;
-    }
-
-    #listmenu>li {
         list-style: none;
-        text-decoration: none;
+        height: 100%;
+        align-self: center;
     }
-
 
     /* main */
 
