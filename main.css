@@ -1,4 +1,15 @@
 @media screen and (min-width:600px) {
+    body {
+        margin: 0;
+
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    /* main grid */
     #main-grid {
         height: 100vh;
         width: 100vw;
@@ -13,7 +24,7 @@
     /*header*/
     #header {
         grid-area: header;
-        background-color: #42C2FF;
+        background-color: #9ad4f8;
         border: 3px white solid;
         display: flex;
         flex-direction: row;
@@ -22,9 +33,10 @@
 
 
     }
-    .media{
+
+    .media {
         justify-content: center;
-        
+
     }
 
     #github {
@@ -49,26 +61,28 @@
 
     #side-bar {
         grid-area: side-bar;
-        background-color: #42C2FF;
+        background-color: #9ad4f8;
         border: 3px white solid;
         align-items: center;
-        height: 100%;
-
-
-
-
-
+        width: 100%;
+        justify-content: center;
     }
 
     #menu {
-        align-content: space-around;
+        width: 100%;
+        justify-content: right;
         flex-direction: column;
-        
-    
     }
-    #listmenu{
-        align-content: space-around;
-        justify-content: space-between;
+
+    #listmenu {
+        direction: rtl;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+    }
+
+    #listmenu>li {
+        list-style: none;
+        text-decoration: none;
     }
 
 
@@ -76,69 +90,49 @@
 
     #main {
         grid-area: main;
-        background-color: #B8FFF9;
+        background-color: #d2e9fb;
         border: 3px white solid;
         display: flex;
         direction: rtl;
-        
-
-
     }
 
     .boxmain {
         width: 40vw;
-        
         flex-direction: column;
         direction: rtl;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         border: #98d3ce 2px solid;
-
-        
-
     }
-    #project{
-        display: flex;
-        
-        
 
-        
-        
-
-        
-       
+    #project {
+        display: flex
     }
-    .proj{
-        
+
+    .proj {
         height: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
         font-size: 15px;
-
     }
-    .img{
+
+    .img {
         width: 30%;
-
     }
+
     #textphoto {
 
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
         align-content: space-between;
-
     }
-
-
-    
 
     #ME {
         transition: all 1s;
         border-radius: 50%;
         width: 10vw;
-
-
     }
 
     #ME:hover {
@@ -148,8 +142,7 @@
     }
 
     #album {
-        
-        border: 3px white solid;
+        border: 3px #98d3ce solid;
         align-self: flex-end;
         background-image: url(/img/1.jpg);
         background-size: cover;
@@ -186,21 +179,14 @@
         100% {
             background-image: url(/img/1.jpg);
         }
-
     }
 
     /* footer  */
-
     #footer {
         grid-area: footer;
-        background-color: #42C2FF;
+        background-color: #9ad4f8;
         border: 3px white solid;
         height: 14vh;
-
-
-
-
-
     }
 
     #conect {
@@ -208,30 +194,24 @@
         align-items: center;
         justify-content: space-around;
         height: 100%;
-
-
-
     }
 
-    .ftr{
+    .ftr {
         height: 15%;
-        
-        
-      }
-    #content{
+    }
+
+    #content {
         width: 100vw;
         height: 30vh;
-       
     }
-    #phone{
+
+    #phone {
         width: 4vw;
         height: 6vh;
-       
     }
-  
-    #mail{
+
+    #mail {
         width: 4vw;
         height: 4vh;
     }
-
 }

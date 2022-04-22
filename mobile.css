@@ -3,10 +3,6 @@
     margin: 0;
   }
 
-
-
-
-
   #main-grid {
     height: 100vh;
     width: 100vw;
@@ -20,7 +16,7 @@
 
   #header {
     grid-area: header;
-    background-color: #42C2FF;
+    background-color: #9ad4f8;
     border: 3px white solid;
     display: flex;
     flex-direction: row;
@@ -57,7 +53,7 @@
 
   #main {
     grid-area: main;
-    background-color: #B8FFF9;
+    background-color: #d2e9fb;
     border: 3px white solid;
     display: flex;
     width: 100vw;
@@ -114,12 +110,13 @@
 
   .img {
     width: 100vw;
+    height: 30vh;
   }
 
   #album {
 
 
-    border: 3px white solid;
+    border: 3px #246a8a solid;
     background-image: url(img/1.jpg);
     background-size: 100% 100%;
     display: flex;
@@ -163,7 +160,7 @@
 
   #footer {
     grid-area: footer;
-    background-color: #42C2FF;
+    background-color: #9ad4f8;
     border: 3px white solid;
 
 
